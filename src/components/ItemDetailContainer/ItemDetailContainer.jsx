@@ -23,10 +23,10 @@ const ItemDetailContainer = () => {
 
         if (product === undefined) {
             navigate('/*')
-        } else {
-            setItem(product)
+            } else {
+                setItem(product)
+            }
         }
-    }
 
     useEffect(() => {
 
