@@ -1,0 +1,29 @@
+header.header-main {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img.logo-DecoBazarLau{
+    width: 120px;
+    min-width: 100px;
+}
+
+.header__child{
+    display: flex;
+    align-items: center;
+}
+
+header .nav-btn:hover{
+    color: #80d8f3;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+@media (max-width: 340px) {
+    img.logo-DecoBazarLau{
+        width: 100px;
+    }
+}
+
