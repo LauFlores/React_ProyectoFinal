@@ -15,7 +15,7 @@ header img.logo-DecoBazarLau{
 }
 
 header .nav-btn:hover{
-    color: #80d8f3;
+    color: #d0dfec;
     transform: scale(1.1);
     transition: .5s;
 }

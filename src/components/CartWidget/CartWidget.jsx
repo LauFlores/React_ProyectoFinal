@@ -72,7 +72,7 @@ const CartWidget = () => {
                         <KeepBuying sendFn={handleClose}/>
                         :
                         <div className="checkout">
-                            <Button variant="contained">
+                            <Button variant="outlined">
                                 <Link to="/cart" onClick={handleClose}>Finalizar compra</Link>
                             </Button>
                         </div>}

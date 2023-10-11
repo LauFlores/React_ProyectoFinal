@@ -8,6 +8,7 @@ import PropTypes from 'prop-types';
 import { collection, getDocs } from 'firebase/firestore'
 import { useState, useEffect } from 'react';
 import db from '../../utils/firebaseConfig';
+import { textDecoration } from '@chakra-ui/react';
 
 const NavigableMenu = ({classProp}) => {
 
@@ -58,7 +59,7 @@ const NavigableMenu = ({classProp}) => {
                         <Button
                             variant="text"
                             className='nav-btn'
-                            sx={{ my: 2, color: { xs: '#1976D2', md: 'white'}}}
+                            sx={{ my: 2, color: { xs: '#000000', md: 'white'}}}
                         >
                             Home
                         </Button>
@@ -73,7 +74,7 @@ const NavigableMenu = ({classProp}) => {
                         variant="text"
                         disableRipple
                         aria-expanded={open ? 'true' : undefined}
-                        sx={{ my: 2, color: { xs: '#1976D2', md: 'white'}}}
+                        sx={{ my: 2, color: { xs: '#000000', md: 'white'}}}
                         onClick={handleClick}
                     >
                         Categorías
@@ -88,7 +89,7 @@ const NavigableMenu = ({classProp}) => {
                         }}>
                         {categories.map((cat, i) => {
                             return (
-                                <Link to={`/category/${cat}`} key={i}>
+                                <Link to={`/category/${cat}`} key={i} style={{textDecoration: 'none'} }>
                                     <MenuItem onClick={handleClose}>
                                         {cat}
                                     </MenuItem>
@@ -101,9 +102,9 @@ const NavigableMenu = ({classProp}) => {
                     <Button
                         variant="text"
                         className='nav-btn'
-                        sx={{ my: 2, color: { xs: '#1976D2', md: 'white'}}}
+                        sx={{ my: 2, color: { xs: '#000000', md: 'white'}}}
                     >
-                        <Link to={"/contacto"}>Contactarnos</Link>
+                        <Link to={"/contacto"} style={{textDecoration: 'none'}} >Contactarnos</Link>
                     </Button>
                 </li>
             </ul>
