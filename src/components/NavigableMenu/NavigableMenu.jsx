@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import { collection, getDocs } from 'firebase/firestore'
 import { useState, useEffect } from 'react';
 import db from '../../utils/firebaseConfig';
-import { textDecoration } from '@chakra-ui/react';
+
 
 const NavigableMenu = ({classProp}) => {
 
