@@ -11,8 +11,9 @@ Una vez en el carrito al querer confirmar la compra pide completar un formulario
 
 pages con github no esta tomando la página web por lo que en breve se mostrará su link en el Readme.
 
+- Link al sitio web: https://deco-bazar-lau.vercel.app/
+
 Actualizaciones en breve: 
 
 - Readme.md Markdown
 - Mejoras esteticas
-- Link al sitio web
