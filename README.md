@@ -9,7 +9,7 @@ Una vez que selecciona mostrar más se accede al detalle del producto, allí se 
 
 Una vez en el carrito al querer confirmar la compra pide completar un formulario para poder avanzar y finalizar, mostrando así una notificación de la compra con el número de orden. 
 
-pages con github no esta tomando la página web por lo que en breve se mostrará su link en el Readme.
+
 
 - Link al sitio web: https://deco-bazar-lau.vercel.app/
 
