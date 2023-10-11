@@ -20,7 +20,7 @@ const ItemListContainer = ({ greeting }) => {
       const productSnapshot = await getDocs(collection(db, "articulos"));
       const productList = productSnapshot.docs.map(doc => {
           let product = doc.data()
-          product.id = parseInt(doc.id)
+          product.id = doc.id
           return product
       });
 
