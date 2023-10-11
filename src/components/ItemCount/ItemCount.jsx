@@ -45,8 +45,8 @@ const ItemCount = ({ stock, initial, onAdd, updateQuantity }) => {
 ItemCount.propTypes = {
     stock: PropTypes.number.isRequired,
     initial: PropTypes.number.isRequired, 
-    onAdd: PropTypes.number.isRequired, 
-    updateQuantity: PropTypes.number.isRequired
+    onAdd: PropTypes.func.isRequired, 
+    updateQuantity: PropTypes.func.isRequired
 }
 
 

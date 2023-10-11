@@ -1,4 +1,4 @@
-import propTypes from "prop-types"
+import PropTypes from "prop-types"
 
 import './ItemList.css'
 import Item from '../Item/Item';
@@ -14,7 +14,7 @@ const ItemList = ({ items }) => {
 }
 
 ItemList.propTypes = {
-  items: propTypes.array,
+  items: PropTypes.array,
 };
 
 export default ItemList

@@ -1,6 +1,6 @@
 
 import './ItemDetail.css';
-import propTypes from "prop-types"
+import PropTypes from "prop-types"
 import ItemCount from '../ItemCount/ItemCount';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom'
@@ -79,15 +79,15 @@ const ItemDetail = ({ prop }) => {
 
 
 ItemDetail.propTypes = {
-  prop: propTypes.shape ({
-    title: propTypes.string.isRequired,
-    price: propTypes.number.isRequired,
-    stock: propTypes.number.isRequired,
-    pic1: propTypes.string.isRequired,
-    pic2: propTypes.string.isRequired,
-    pic3: propTypes.string.isRequired,
-    description: propTypes.string.isRequired,
-    id: propTypes.any,
+  prop: PropTypes.shape ({
+    title: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    stock: PropTypes.number.isRequired,
+    pic1: PropTypes.string.isRequired,
+    pic2: PropTypes.string.isRequired,
+    pic3: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    id: PropTypes.string,
   }),
 };
 
