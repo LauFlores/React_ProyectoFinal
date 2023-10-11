@@ -17,26 +17,6 @@ const ItemDetailContainer = () => {
 
     const [item, setItem] = useState({})
    
-
-    
-
-    
-
-    // const productFilter = async () => {
-    //     const docRef = doc(db, "articulos", id);
-    //     const docSnapshop = await getDoc(docRef);
-    //     let product = docSnapshop.data()
-    //     product.id = docSnapshop.id
-
-
-
-    //     if (product === undefined) {
-    //         navigate('/*')
-    //         } else {
-    //             setItem(product)
-    //         }
-    //     }
-
     const productFilter = async () => {
 
 
