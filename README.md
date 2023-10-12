@@ -3,6 +3,7 @@
 
 DecoBazarLau es una empresa que busca inspirar a las personas a crear espacios de calidez.
 
+Link al sitio web: https://deco-bazar-lau.vercel.app/
 ## Detalle
 El presente Ecommerce se elaboro en React, se conecto a una DB en Firebase/Firestore. DecoBazarLau es tienda de venta de artículos de bazar con foco en la decoración del hogar; en la página principal se puede ver un listado de los mismos, entrar a su detalle, filtrar por categoría y agregar al carrito (con control de no sobrepasar el stock). En el carrito se puede modificar la cantidad de productos, eliminarlos y finalizar la compra (Al finalizar se despliega un modal con un formulario para completar los datos del usuario), se genera una orden con un ID único. Se controla en Firebase que se haya generado dicha orden.
 
