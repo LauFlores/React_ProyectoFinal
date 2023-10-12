@@ -1,19 +1,28 @@
-# React_ProyectoFinal
-Coderhouse
+# DecoBazarLau | Decoración y Bazar
 
-El proyecto consiste en un e.commerce para el emprendimiento DecoBazar Lau que consta de 4 categorias (cocina, baño, dormitorio, hogar)
 
-El usuario puede visualizar los productos que se muestran en la página principal, también los puede encontrar por separado consultando desde el navegador la categoría. 
+DecoBazarLau es una empresa que busca inspirar a las personas a crear espacios de calidez.
 
-Una vez que selecciona mostrar más se accede al detalle del producto, allí se puede ver la opción de agregar la cantidad requerida al carrito, en caso querer superar el stock saltará una alerta. Cada producto cuenta con 3 unidades. 
+## Detalle
+El presente Ecommerce se elaboro en React, se conecto a una DB en Firebase/Firestore. DecoBazarLau es tienda de venta de artículos de bazar con foco en la decoración del hogar; en la página principal se puede ver un listado de los mismos, entrar a su detalle, filtrar por categoría y agregar al carrito (con control de no sobrepasar el stock). En el carrito se puede modificar la cantidad de productos, eliminarlos y finalizar la compra (Al finalizar se despliega un modal con un formulario para completar los datos del usuario), se genera una orden con un ID único. Se controla en Firebase que se haya generado dicha orden.
 
-Una vez en el carrito al querer confirmar la compra pide completar un formulario para poder avanzar y finalizar, mostrando así una notificación de la compra con el número de orden. 
+## Demostración del funcionamiento:
 
-pages con github no esta tomando la página web por lo que en breve se mostrará su link en el Readme.
+### Se muestra la pantalla principal con items y se filtra por categoría, con demostración de web responsive:
 
-- Link al sitio web: https://deco-bazar-lau.vercel.app/
+![1](https://github.com/LauFlores/React_ProyectoFinal/assets/132300235/97f1c891-1de7-4d22-afc9-3d5f30f933ce)
 
-Actualizaciones en breve: 
+----
 
-- Readme.md Markdown
-- Mejoras esteticas
+### A continuación se puede ver el acceso al detalle del producto, allí se valida la selección de stock y se agrega el producto al carrito, posteriormente se comprueba la lógica para actualizar la cantidad, dado que el producto se cargo previamente, y se agrega un condicional para nunca superar el stock. Se prueba la posibilidad de eliminar productos; para luego, finalizar la compra, que cuenta con el despliege modal con un formulario que al enviarse muestra al usuario su número de orden; esto último, se controla en el Firebase a fin de comprobar que se haya generado la orden:
+
+![2](https://github.com/LauFlores/React_2daEntrega/assets/132300235/ddf667e9-3ef1-4ce4-b7a1-69f065b5b530)
+
+----
+
+## Tecnologías utilizadas
+- Material UI
+- React Bootstrap
+- React Router Dom
+- Sweetalert2
+- Firebase/Firestore para la DB
